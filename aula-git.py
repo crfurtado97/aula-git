@@ -1,9 +1,14 @@
 
-idade_pessoa = int(input("Digite sua idade na tela : "))
 
-classificacao_conteudo = idade_pessoa >= 16
+idade_pessoa = int(input("Digite sua idade: "))
 
-print ("Liberado o acesso para filme" , classificacao_conteudo) 
+if idade_pessoa >= 16:
+    print("Acesso liberado para o filme.")
+else:
+    print("Acesso negado. Idade mínima é 16 anos.")
+
+
+
 
 
 
